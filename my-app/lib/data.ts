@@ -9,8 +9,8 @@ export const featuredProjects = [
     badgeType: "github" as const,
   },
   {
-    title: "PriceTracker (Basic)",
-    description: "A web app that tracks product prices from e-commerce sites and notifies you of price drops.",
+    title: "Product Summariser Offline",
+    description: "A web app that tracks product prices from bing and summarises using Ollama and suggests you the best deals.",
     liveLink: "https://pricetracker.example.com",
     badge: "Live Demo",
     badgeType: "live" as const,

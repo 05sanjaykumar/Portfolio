@@ -27,6 +27,9 @@ export function AboutSection() {
             <p>
               My expertise lies in building Open-Source dev tools, integrating AI into practical applications, and developing full-stack, privacy-first products from scratch.
             </p>
+            <p>
+              Looking to build profitable, privacy-focused tools & collaborate with hackers.
+            </p>
           </div>
           <div className="bg-muted p-6 rounded-lg">
              <h3 className="font-semibold text-lg mb-2">What I Do Best</h3>

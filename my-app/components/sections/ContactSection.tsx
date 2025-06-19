@@ -51,9 +51,9 @@ export function ContactSection() {
 
         {/* Email Call-to-Action */}
         <div className="mt-8">
-          <Link href="mailto:sanjay.builds@gmail.com">
+          <Link href="mailto:sanjaykumar.devtools@gmail.com">
             <Button size="lg">
-              <Mail className="mr-2 h-5 w-5" /> sanjay.builds@gmail.com
+              <Mail className="mr-2 h-5 w-5" /> sanjaykumar.devtools@gmail.com
             </Button>
           </Link>
         </div>
