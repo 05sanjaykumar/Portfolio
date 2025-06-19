@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
-const tagline = "I build AI-powered dev tools & privacy-first apps.";
+const tagline = "I build AI-powered tools, dev utilities, and indie products that run fast and offline";
 
 declare global {
   interface Window {
