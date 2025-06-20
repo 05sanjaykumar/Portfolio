@@ -30,6 +30,12 @@ export default function RootLayout({
         <meta property="og:title" content="Sanjay Builds" />
         <meta property="og:description" content="Check out my latest projects and experiments." />
         <meta property="og:url" content="https://www.sanjaybuilds.com" />
+        <meta property="og:image" content="https://www.sanjaybuilds.com/favicon_io/android-chrome-512x512.png" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Sanjay Builds" />
+        <meta name="twitter:description" content="I build AI-powered dev tools & privacy-first apps." />
+        <meta name="twitter:image" content="https://www.sanjaybuilds.com/favicon_io/android-chrome-512x512.png" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png" />
