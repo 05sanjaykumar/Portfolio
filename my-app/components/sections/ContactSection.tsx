@@ -3,30 +3,27 @@
 
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, NotebookText, Twitter } from "lucide-react";
+import {Mail, Unlink2 } from "lucide-react";
+import Image from "next/image";
+
 import Link from "next/link";
 
 // Array to hold your social media links for easy mapping
 const socialLinks = [
   {
     name: "GitHub",
-    url: "https://github.com/your-username", // <-- Change to your actual GitHub URL
-    icon: <Github className="h-6 w-6" />,
+    url: "https://github.com/05sanjaykumar", // <-- Change to your actual GitHub URL
+    icon: <Image src="/github.svg" alt="GitHub" width={24} height={24} className="bg-white rounded-2xl"/>,
   },
   {
-    name: "Twitter",
-    url: "https://twitter.com/your-username", // <-- Change to your actual Twitter URL
-    icon: <Twitter className="h-6 w-6" />,
+    name: "X",
+    url: "https://x.com/sanjaykuma49595", // <-- Change to your actual Twitter URL
+    icon: <Image src="/x.svg" alt="X" width={24} height={24} className="bg-white "/>,
   },
   {
-    name: "LinkedIn",
-    url: "https://linkedin.com/in/your-username", // <-- Change to your actual LinkedIn URL
-    icon: <Linkedin className="h-6 w-6" />,
-  },
-  {
-    name: "Dev.to",
-    url: "https://dev.to/your-username", // <-- Change to your actual Dev.to URL
-    icon: <NotebookText className="h-6 w-6" />,
+    name: "Other Links",
+    url: "https://tinyurl.com/5adeawbe", // <-- Change to your actual Dev.to URL
+    icon: <Unlink2 className="h-6 w-6" />,
   },
 ];
 
