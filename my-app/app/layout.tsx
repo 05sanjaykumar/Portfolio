@@ -30,6 +30,13 @@ export default function RootLayout({
         <meta property="og:title" content="Sanjay Builds" />
         <meta property="og:description" content="Check out my latest projects and experiments." />
         <meta property="og:url" content="https://www.sanjaybuilds.com" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png" />
+        <link rel="manifest" href="/favicon_io/site.webmanifest" />
+        <link rel="icon" href="/favicon_io/favicon.ico" />
+
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" strategy="beforeInteractive" />
         <Script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js" strategy="beforeInteractive" />
       </head>
