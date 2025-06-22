@@ -2,24 +2,24 @@
 
 export const featuredProjects = [
   {
-    title: "GitSlice CLI",
+    title: "GitSlice CLI(Private Repo)(WIP)",
     description: "A command-line tool to export a subset of a Git repository with its history. Perfect for monorepos and code sharing.",
-    repoLink: "https://github.com/your-username/gitslice",
+    repoLink: "https://github.com/05sanjaykumar/GitSlice",
     badge: "Star on GitHub",
     badgeType: "github" as const,
   },
   {
     title: "Product Summariser Offline",
     description: "A web app that tracks product prices from bing and summarises using Ollama and suggests you the best deals.",
-    liveLink: "https://pricetracker.example.com",
+    liveLink: "https://github.com/05sanjaykumar/Local-Product-Summariser-Ollama",
     badge: "Live Demo",
     badgeType: "live" as const,
   },
   {
-    title: "Tom-Com (Stealth)",
+    title: "Tom-Com (WIP)",
     description: "A next-gen communication platform. Currently in private beta. Join the waitlist for early access.",
-    waitlistLink: "#", // Link to your waitlist form/page
-    badge: "Join Waitlist",
+    waitlistLink: "https://github.com/05sanjaykumar/Tom-Com", // Link to your waitlist form/page
+    badge: "Check it Out",
     badgeType: "waitlist" as const,
   },
 ];
