@@ -44,6 +44,11 @@ export default function RootLayout({
         <link rel="manifest" href="/favicon_io/site.webmanifest" />
         <link rel="icon" href="/favicon_io/favicon.ico" />
 
+        <link rel="canonical" href="https://www.sanjaybuilds.com/" />
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="Sanjay Kumar, Sanjay Builds, AI developer, SaaS builder, Freelance Full Stack Developer, AI tools, Open Source, Web Dev, Portfolio" />
+
+
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" strategy="beforeInteractive" />
         <Script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js" strategy="beforeInteractive" />
       </head>
@@ -66,3 +71,4 @@ export default function RootLayout({
     </html>
   );
 }
+
