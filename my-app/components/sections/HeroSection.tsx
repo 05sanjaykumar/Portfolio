@@ -91,6 +91,16 @@ export function HeroSection() {
             <Link href="#about">
               <Button size="lg">See Projects</Button>
             </Link>
+            <Link href="#services">
+              <Button size="lg" variant="secondary">
+                My Services
+              </Button>
+            </Link>
+            <Link href="#support">
+              <Button size="lg" variant="secondary">
+                Support Me
+              </Button>
+            </Link>
             <Link href="#contact">
               <Button size="lg" variant="secondary">
                 Contact Me
