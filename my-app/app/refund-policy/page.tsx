@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+
+export const metadata:Metadata = {
+  title: "Refund Policy | Sanjay Builds",
+  description: "Understand the refund eligibility and process for digital services and templates.",
+};
+
 export default function RefundPolicyPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-12">

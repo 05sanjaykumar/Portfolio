@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata:Metadata = {
+  title: "Terms and Conditions | Sanjay Builds",
+  description: "Terms of service for using Sanjay Builds tools, templates, and freelance offerings.",
+};
+
+
 export default function TermsPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-12">
@@ -14,6 +22,7 @@ export default function TermsPage() {
       <p>
         The content is provided “as is” without warranties. I am not responsible for any damages arising from use of this website.
       </p>
-    </main>
+    </main>    
   );
-}
+}  
+

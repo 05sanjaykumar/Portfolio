@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata:Metadata = {
+  title: "Privacy Policy | Sanjay Builds",
+  description: "How Sanjay Builds collects, uses, and protects your personal information.",
+};
+
 export default function PrivacyPolicyPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-12">
@@ -18,3 +25,5 @@ export default function PrivacyPolicyPage() {
     </main>
   );
 }
+
+
