@@ -58,7 +58,7 @@ export function ServicesSection() {
             <div key={service.title} className="p-6 rounded-lg border shadow-sm bg-neutral-900 hover:shadow-md transition hover:border-white">
               <div className="mb-4">{service.icon}</div>
               <h3 className="text-xl font-semibold">{service.title}</h3>
-              <p className="text-muted-foreground mt-2">{service.description}</p>
+              <p className="text-gray-400 mt-2">{service.description}</p>
             </div>
           ))}
         </div>
