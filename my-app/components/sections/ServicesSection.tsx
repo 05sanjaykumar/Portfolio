@@ -53,9 +53,9 @@ export function ServicesSection() {
         <p className="text-muted-foreground max-w-2xl mx-auto mb-12">
           Whether you're building a product, need technical advice, or want to collaborate — here’s what I can offer.
         </p>
-        <div className="grid gap-8 md:grid-cols-3 text-left">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 text-left">
           {services.map((service) => (
-            <div key={service.title} className="p-6 rounded-lg border shadow-sm bg-[rgba(23,23,23,1)] hover:shadow-md transition hover:border-white">
+            <div key={service.title} className="p-6 rounded-lg border shadow-sm bg-neutral-900 hover:shadow-md transition hover:border-white">
               <div className="mb-4">{service.icon}</div>
               <h3 className="text-xl font-semibold">{service.title}</h3>
               <p className="text-muted-foreground mt-2">{service.description}</p>
