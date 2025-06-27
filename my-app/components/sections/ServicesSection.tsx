@@ -1,7 +1,6 @@
 // app/components/sections/ServicesSection.tsx
 "use client";
 
-import { motion } from "framer-motion";
 import { Code2, Cloud, WandSparkles, Users, PanelTop, GitBranchPlus } from "lucide-react";
 
 const services = [
@@ -40,13 +39,7 @@ const services = [
 export function ServicesSection() {
   return (
     <section id="services" className="py-24 px-4 text-center">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeInOut" }}
-        viewport={{ once: true, amount: 0.5 }}
-        className="max-w-6xl mx-auto"
-      >
+
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
           What I Can Help With
         </h2>
@@ -62,7 +55,6 @@ export function ServicesSection() {
             </div>
           ))}
         </div>
-      </motion.div>
     </section>
   );
 }
