@@ -39,21 +39,22 @@ const services = [
 export function ServicesSection() {
   return (
     <section id="services" className="py-24 px-4 text-center">
-
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
-          What I Can Help With
-        </h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto mb-12">
-          Whether you're building a product, need technical advice, or want to collaborate — here’s what I can offer.
-        </p>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 text-left">
-          {services.map((service) => (
-            <div key={service.title} className="p-6 rounded-lg border shadow-sm bg-neutral-900 hover:shadow-md transition hover:border-white">
-              <div className="mb-4">{service.icon}</div>
-              <h3 className="text-xl font-semibold">{service.title}</h3>
-              <p className="text-gray-400 mt-2">{service.description}</p>
-            </div>
-          ))}
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
+            What I Can Help With
+          </h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-12">
+            Whether you're building a product, need technical advice, or want to collaborate — here’s what I can offer.
+          </p>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3 text-left">
+            {services.map((service) => (
+              <div key={service.title} className="p-6 rounded-lg border shadow-sm bg-neutral-900 hover:shadow-md transition hover:border-white">
+                <div className="mb-4">{service.icon}</div>
+                <h3 className="text-xl font-semibold">{service.title}</h3>
+                <p className="text-gray-400 mt-2">{service.description}</p>
+              </div>
+            ))}
+          </div>
         </div>
     </section>
   );
