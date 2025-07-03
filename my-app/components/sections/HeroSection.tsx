@@ -84,7 +84,7 @@ export function HeroSection() {
       }}
     >
       <p className="max-w-2xl mx-auto text-lg text-neutral-300 mt-4 break-words">
-        GitSlice, Product-Summariser, Tom-Com, and more → see my projects
+        GitSlice, Product-Summariser, Url-shotener, and more → see my projects
       </p>
       <div className="flex flex-wrap gap-4 mt-8 justify-center">
         <Link href="#about">

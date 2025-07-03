@@ -57,7 +57,7 @@ export function AboutSection() {
                   <CardDescription>{project.description}</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow flex items-end">
-                   <Link href={project.repoLink || project.liveLink || project.waitlistLink || '#'} target="_blank" className="w-full">
+                   <Link href={project.repoLink || project.liveLink || '#'} target="_blank" className="w-full">
                      <Button variant="secondary" className="w-full">
                        {project.badge} <ArrowUpRight className="h-4 w-4 ml-2"/>
                      </Button>

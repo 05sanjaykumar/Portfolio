@@ -16,12 +16,13 @@ export const featuredProjects = [
     badgeType: "github" as const,
   },
   {
-    title: "Tom-Com (WIP)",
-    description: "A next-gen communication platform. Currently in private beta. Join the waitlist for early access.",
-    waitlistLink: "https://github.com/05sanjaykumar/Tom-Com", // Link to your waitlist form/page
-    badge: "Check it Out",
-    badgeType: "waitlist" as const,
-  },
+    title: "GitSlice CLI",
+    description: "A blazing-fast CLI tool to extract specific files or folders from any GitHub repo using sparse-checkout. Built with Go.",
+    repoLink: "https://github.com/05sanjaykumar/gitslice",
+    badge: "Star on GitHub",
+    badgeType: "github" as const,
+  }
+,
 ];
 
 export const otherProjects = [
