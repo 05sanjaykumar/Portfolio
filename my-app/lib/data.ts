@@ -16,9 +16,30 @@ export const featuredProjects = [
     badgeType: "github" as const,
   },
   {
-    title: "GitSlice CLI",
+    title: "GitSlice CLI(15+ Stars)",
     description: "A blazing-fast CLI tool to extract specific files or folders from any GitHub repo using sparse-checkout. Built with Go.",
     repoLink: "https://github.com/05sanjaykumar/gitslice",
+    badge: "Star on GitHub",
+    badgeType: "github" as const,
+  },
+  {
+    title: "PeerDrop",
+    description: "A P2P file sharing app that allows you to share files directly between devices without a server.",
+    repoLink: "https://github.com/05sanjaykumar/Peer-Drop",
+    badge: "Star on GitHub",
+    badgeType: "github" as const,
+  },
+  {
+    title:"Solar System",
+    description: "A 3D interactive solar system model built with Three.js and React.",
+    liveLink: "https://05sanjaykumar.github.io/Solar-System-3-js/",
+    badge: "Live Demo",
+    badgeType: "live" as const,
+  },
+  {
+    title:"DSA in Java",
+    description: "A comprehensive repository of Data Structures and Algorithms implemented in Java.",
+    repoLink: "https://github.com/05sanjaykumar/DSA-in-java",
     badge: "Star on GitHub",
     badgeType: "github" as const,
   }
