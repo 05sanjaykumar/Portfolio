@@ -1,7 +1,13 @@
 // app/components/sections/AboutSection.tsx
 "use client";
 
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { featuredProjects } from "@/lib/data";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -13,7 +19,8 @@ export function AboutSection() {
     <section id="about" className="py-20 px-4">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-4">About Me</h2>
-        <motion.div 
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -22,22 +29,24 @@ export function AboutSection() {
         >
           <div className="md:col-span-2 space-y-4 text-muted-foreground">
             <p>
-              I'm a 20-year-old solo builder and developer, driven by a lifelong curiosity for technology that started when I was 8. I'm self-taught, with a passion for creating tools that solve real-world problems.
+              I’m Sanjay — a full-stack product engineer & AI consultant who helps founders, creators, and indie hackers launch scalable, cleanly-built SaaS products, fast.
             </p>
             <p>
-              My expertise lies in building Open-Source dev tools, integrating AI into practical applications, and developing full-stack, privacy-first products from scratch.
+              Whether it's building your MVP from scratch, integrating GPT-based tools using LangChain, or wiring up Stripe, Supabase, Docker-compose and secure auth — I handle everything from architecture to deploy.
             </p>
             <p>
-              Looking to build profitable, privacy-focused tools & collaborate with hackers.
+              I work like a “Technical Co-Founder for Hire” — shipping fast, clean, and production-ready. No fluff. No overengineering. Just results.
             </p>
           </div>
           <div className="bg-muted p-6 rounded-lg">
-             <h3 className="font-semibold text-lg mb-2">What I Do Best</h3>
-             <ul className="space-y-2">
-                <li className="flex items-center gap-2">✓ OSS Dev Tools</li>
-                <li className="flex items-center gap-2">✓ AI Integrations</li>
-                <li className="flex items-center gap-2">✓ Full-Stack Apps</li>
-             </ul>
+            <h3 className="font-semibold text-lg mb-2">What I Do Best</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center gap-2">✓ AI-Powered SaaS MVPs</li>
+              <li className="flex items-center gap-2">✓ Full-Stack Dev + Clean UI</li>
+              <li className="flex items-center gap-2">
+                ✓ Stripe, Auth, Supabase, LangChain, Docker-compose
+              </li>
+            </ul>
           </div>
         </motion.div>
 
@@ -57,11 +66,15 @@ export function AboutSection() {
                   <CardDescription>{project.description}</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow flex items-end">
-                   <Link href={project.repoLink || project.liveLink || '#'} target="_blank" className="w-full">
-                     <Button variant="secondary" className="w-full">
-                       {project.badge} <ArrowUpRight className="h-4 w-4 ml-2"/>
-                     </Button>
-                   </Link>
+                  <Link
+                    href={project.repoLink || project.liveLink || "#"}
+                    target="_blank"
+                    className="w-full"
+                  >
+                    <Button variant="secondary" className="w-full">
+                      {project.badge} <ArrowUpRight className="h-4 w-4 ml-2" />
+                    </Button>
+                  </Link>
                 </CardContent>
               </Card>
             </motion.div>
