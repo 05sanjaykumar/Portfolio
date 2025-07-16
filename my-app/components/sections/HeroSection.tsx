@@ -93,6 +93,11 @@ export function HeroSection() {
                 See Past Builds
               </Button>
             </Link>
+            <Link href="#packages">
+              <Button size="lg" variant="secondary">
+                See available packages
+              </Button>
+            </Link>
             <Link href="#contact">
               <Button size="lg" variant="secondary">
                 Let's Talk

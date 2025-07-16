@@ -15,8 +15,8 @@ const fontSans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sanjay Builds | AI & Dev Tools",
-  description: "I build AI‑powered dev tools & privacy‑first apps.",
+  title: "Sanjay Builds | AI Engineer & Product Consultant",
+  description: "AI engineer & product consultant. I build scalable SaaS apps, custom AI tools, and full-stack platforms with privacy-first design and clean architecture.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <meta name="description" content="Portfolio of Sanjay Kumar – AI-powered dev tools, privacy-first apps, and experiments." />
+        <meta name="description" content="AI engineer & product consultant. I build scalable SaaS apps, custom AI tools, and full-stack platforms with privacy-first design and clean architecture." />
         <meta property="og:title" content="Sanjay Builds" />
         <meta property="og:description" content="Check out my latest projects and experiments." />
         <meta property="og:url" content="https://www.sanjaybuilds.com" />
@@ -46,7 +46,7 @@ export default function RootLayout({
 
         <link rel="canonical" href="https://www.sanjaybuilds.com/" />
         <meta name="robots" content="index, follow" />
-        <meta name="keywords" content="Sanjay Kumar, Sanjay Builds, AI developer, SaaS builder, Freelance Full Stack Developer, AI tools, Open Source, Web Dev, Portfolio" />
+        <meta name="keywords" content="Sanjay Kumar, AI Engineer, Product Consultant, SaaS Builder, Full Stack Developer, Next.js, MERN, AI Tools, OpenAI Developer, Custom Automation, Sanjay Builds" />
 
 
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" strategy="beforeInteractive" />
