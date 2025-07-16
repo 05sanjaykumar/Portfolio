@@ -43,7 +43,6 @@ export const featuredProjects = [
     badge: "Live Demo",
     badgeType: "live" as const,
   },
-,
 ];
 
 export const otherProjects = [
