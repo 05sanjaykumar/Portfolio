@@ -38,7 +38,7 @@ export function AboutSection() {
               I work like a “Technical Co-Founder for Hire” — shipping fast, clean, and production-ready. No fluff. No overengineering. Just results.
             </p>
           </div>
-          <div className="bg-muted p-6 rounded-lg">
+          <div id='projects' className="bg-muted p-6 rounded-lg">
             <h3 className="font-semibold text-lg mb-2">What I Do Best</h3>
             <ul className="space-y-2">
               <li className="flex items-center gap-2">✓ AI-Powered SaaS MVPs</li>

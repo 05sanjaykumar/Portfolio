@@ -3,26 +3,24 @@
 
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import {Mail, Unlink2 } from "lucide-react";
+import { Mail, Unlink2, Calendar } from "lucide-react";
 import Image from "next/image";
-
 import Link from "next/link";
 
-// Array to hold your social media links for easy mapping
 const socialLinks = [
   {
     name: "GitHub",
-    url: "https://github.com/05sanjaykumar", // <-- Change to your actual GitHub URL
-    icon: <Image src="/github.svg" alt="GitHub" width={24} height={24} className="bg-white rounded-2xl"/>,
+    url: "https://github.com/05sanjaykumar",
+    icon: <Image src="/github.svg" alt="GitHub" width={24} height={24} className="bg-white rounded-2xl" />,
   },
   {
     name: "X",
-    url: "https://x.com/sanjaykuma49595", // <-- Change to your actual Twitter URL
-    icon: <Image src="/x.svg" alt="X" width={24} height={24} className="bg-white "/>,
+    url: "https://x.com/sanjaykuma49595",
+    icon: <Image src="/x.svg" alt="X" width={24} height={24} className="bg-white" />,
   },
   {
     name: "Other Links",
-    url: "https://tinyurl.com/5adeawbe", // <-- Change to your actual Dev.to URL
+    url: "https://tinyurl.com/5adeawbe",
     icon: <Unlink2 className="h-6 w-6" />,
   },
 ];
@@ -46,11 +44,18 @@ export function ContactSection() {
           Feel free to reach out. I'm always open to new ideas and collaborations.
         </p>
 
-        {/* Email Call-to-Action */}
-        <div className="mt-8">
+        {/* Email */}
+        <div className="mt-8 flex flex-col items-center gap-4">
           <Link href="mailto:contact@sanjaybuilds.com">
             <Button size="lg">
               <Mail className="mr-2 h-5 w-5" /> contact@sanjaybuilds.com
+            </Button>
+          </Link>
+
+          {/* Calendly Button */}
+          <Link href="https://calendly.com/0508sanjaykumar/30min" target="_blank">
+            <Button variant="secondary" size="lg">
+              <Calendar className="mr-2 h-5 w-5" /> Book a 30-min Call
             </Button>
           </Link>
         </div>
