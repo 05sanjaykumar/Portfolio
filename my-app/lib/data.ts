@@ -2,11 +2,11 @@
 
 export const featuredProjects = [
   {
-    title: "URL Shortener",
-    description: "A scalable, Dockerized URL Shortener built with Node.js and Redis",
-    liveLink: "https://url-shortern-9qxj.onrender.com/",
-    badge: "Live Demo",
-    badgeType: "live" as const,
+    title:"Product Summariser AI",
+    description: "AI-powered product tracker that uses Bing Search to find, summarize using groq API and custom made template with Langchain to suggest the best deals and stores in mongoDB.",
+    repoLink: "https://github.com/05sanjaykumar/Advance-Product-Summariser-AI",
+    badge: "Star on GitHub",
+    badgeType: "github" as const,
   },
   {
     title: "Product Summariser Offline",
@@ -30,19 +30,19 @@ export const featuredProjects = [
     badgeType: "github" as const,
   },
   {
+    title: "URL Shortener",
+    description: "A scalable, Dockerized URL Shortener built with Node.js and Redis",
+    liveLink: "https://url-shortern-9qxj.onrender.com/",
+    badge: "Live Demo",
+    badgeType: "live" as const,
+  },
+  {
     title:"Solar System",
     description: "A 3D interactive solar system model built with Three.js and React.",
     liveLink: "https://05sanjaykumar.github.io/Solar-System-3-js/",
     badge: "Live Demo",
     badgeType: "live" as const,
   },
-  {
-    title:"DSA in Java",
-    description: "A comprehensive repository of Data Structures and Algorithms implemented in Java.",
-    repoLink: "https://github.com/05sanjaykumar/DSA-in-java",
-    badge: "Star on GitHub",
-    badgeType: "github" as const,
-  }
 ,
 ];
 
