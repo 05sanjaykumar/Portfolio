@@ -29,13 +29,13 @@ export function AboutSection() {
         >
           <div className="md:col-span-2 space-y-4 text-muted-foreground">
             <p>
-              I’m Sanjay — a full-stack product engineer & AI consultant who helps founders, creators, and indie hackers launch scalable, cleanly-built SaaS products, fast.
+              I’m Sanjay — a full-stack product engineer & AI systems builder who helps founders launch clean, scalable SaaS MVPs in weeks, not months.
             </p>
             <p>
-              Whether it's building your MVP from scratch, integrating GPT-based tools using LangChain, or wiring up Stripe, Supabase, Docker-compose and secure auth — I handle everything from architecture to deploy.
+              From zero to launch: I build everything from scratch — backend, frontend, GPT/LLM features with LangChain, Supabase, Stripe, Docker, secure auth, CI/CD, and more.
             </p>
             <p>
-              I work like a “Technical Co-Founder for Hire” — shipping fast, clean, and production-ready. No fluff. No overengineering. Just results.
+              Think of me as your “Technical Co-Founder for Hire” — fast, lean, and production-ready. No fluff. Just results that ship.
             </p>
           </div>
           <div id='projects' className="bg-muted p-6 rounded-lg">

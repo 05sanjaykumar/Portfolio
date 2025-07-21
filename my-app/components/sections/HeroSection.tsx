@@ -8,7 +8,8 @@ import { Button } from "@/components/ui/button";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 const tagline =
-  "Hi, I'm Sanjay — your solo full-stack product engineer & AI consultant.";
+  "Hi, I'm Sanjay — your fractional CTO for shipping SaaS MVPs in weeks, not months.";
+
 
 declare global {
   interface Window {
