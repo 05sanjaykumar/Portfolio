@@ -1,6 +1,13 @@
 // lib/data.ts
 
 export const featuredProjects = [
+    {
+    title:"Skyler Inbox(SaaS Product)",
+    description: "An AI-powered email assistant that helps you manage your inbox efficiently by summarizing emails, drafting responses, and organizing your messages.",
+    liveLink: "https://www.skylerinbox.com/",
+    badge: "Live Demo",
+    badgeType: "live" as const,
+  },
   {
     title:"Product Summariser AI",
     description: "AI-powered product tracker that uses Bing Search to find, summarize using groq API and custom made template with Langchain to suggest the best deals and stores in mongoDB.",
@@ -33,13 +40,6 @@ export const featuredProjects = [
     title: "URL Shortener",
     description: "A scalable, Dockerized URL Shortener built with Node.js and Redis",
     liveLink: "https://url-shortern-9qxj.onrender.com/",
-    badge: "Live Demo",
-    badgeType: "live" as const,
-  },
-  {
-    title:"Solar System",
-    description: "A 3D interactive solar system model built with Three.js and React.",
-    liveLink: "https://05sanjaykumar.github.io/Solar-System-3-js/",
     badge: "Live Demo",
     badgeType: "live" as const,
   },
