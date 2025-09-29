@@ -15,8 +15,13 @@ const socialLinks = [
   },
   {
     name: "X",
-    url: "https://x.com/sanjaykuma49595",
+    url: "https://x.com/sky_bolt20907",
     icon: <Image src="/x.svg" alt="X" width={24} height={24} className="bg-white" />,
+  },
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/sanjay-kumar-6382a1372/",
+    icon: <Image src="/linkedin.svg" alt="X" width={24} height={24} className="bg-white" />,
   },
   {
     name: "Other Links",
