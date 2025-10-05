@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 const tagline =
-  "Hi, I'm Sanjay — your fractional CTO for shipping SaaS MVPs in weeks, not months.";
+  "Hi, I'm Sanjay — your MVP builder for shipping SaaS MVPs in weeks, not months.";
 
 
 declare global {
@@ -96,7 +96,7 @@ export function HeroSection() {
             </Link>
             <Link href="#packages">
               <Button size="lg" variant="secondary">
-                See available packages
+                See what I can help with
               </Button>
             </Link>
             <Link href="#contact">

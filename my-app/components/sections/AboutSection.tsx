@@ -35,7 +35,7 @@ export function AboutSection() {
               From zero to launch: I build everything from scratch — backend, frontend, GPT/LLM features with LangChain, Supabase, Stripe, Docker, secure auth, CI/CD, and more.
             </p>
             <p>
-              Think of me as your “Technical Co-Founder for Hire” — fast, lean, and production-ready. No fluff. Just results that ship.
+              Think of me as your “MVP builder for Hire” — fast, lean, and production-ready. No fluff. Just results that ship.
             </p>
           </div>
           <div id='projects' className="bg-muted p-6 rounded-lg">
