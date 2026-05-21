@@ -22,7 +22,7 @@ const highlights = [
   },
   {
     stat: "YC S25",
-    label: "Trusted by Freya Voice",
+    label: "Contributed to Freya Voice",
     sub: "& VectorShift YC S23",
   },
   {
