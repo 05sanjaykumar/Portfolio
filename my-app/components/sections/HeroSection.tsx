@@ -92,7 +92,7 @@ export function HeroSection() {
             transition={{ delay: 1.8 }}
             className="flex flex-wrap gap-2 mt-6 justify-center"
           >
-            {["LiveKit", "Pipecat", "LangChain", "Groq", "Cartesia", "Next.js", "FastAPI", "Docker"].map((tech) => (
+            {["LiveKit", "Pipecat", "LangChain", "Groq", "Cartesia", "Next.js", "FastAPI", "Node JS", "Docker"].map((tech) => (
               <span
                 key={tech}
                 className="text-xs px-3 py-1 rounded-full border border-neutral-700 text-gray-400 bg-neutral-900/60"
@@ -111,11 +111,7 @@ export function HeroSection() {
                 What I Build
               </Button>
             </Link>
-            <Link href="#packages">
-              <Button size="lg" variant="secondary">
-                Pricing
-              </Button>
-            </Link>
+            
             <Link href="#contact">
               <Button size="lg" variant="secondary">
                 Let’s Talk

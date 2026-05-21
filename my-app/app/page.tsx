@@ -13,9 +13,9 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center">
       <HeroSection />
+      <ClientsSection />
       <AboutSection />
       <ServicesSection />
-      <ClientsSection />
       <PackagesSection />
       <ContactSection />
       <Footer />
