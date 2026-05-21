@@ -57,19 +57,19 @@ export function HeroSection() {
           transition={{ duration: 0.6 }}
           className="flex flex-wrap gap-2 justify-center mb-6"
         >
-          <span className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/30 text-orange-400">
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-orange-500/20 border border-orange-400/50 text-orange-300">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
             YC S25 — Freya Voice
           </span>
-          <span className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400">
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-blue-500/20 border border-blue-400/50 text-blue-300">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
             YC S23 — VectorShift
           </span>
-          <span className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-400">
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-purple-500/20 border border-purple-400/50 text-purple-300">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
             Entrepreneurs First — Shortlisted
           </span>
-          <span className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1 rounded-full bg-neutral-500/10 border border-neutral-500/30 text-neutral-400">
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-white/10 border border-white/25 text-white/80">
             🇬🇧 UK Fintech — Pebble
           </span>
         </motion.div>
@@ -81,7 +81,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, ease: "easeInOut" }}
           className="mb-4"
         >
-          <h1 className="text-3xl md:text-6xl font-light text-neutral-300 break-words text-balance leading-tight">
+          <h1 className="text-3xl md:text-6xl font-light text-white break-words text-balance leading-tight">
             Voice AI Engineer & AI Agent Builder.
           </h1>
         </motion.div>
@@ -103,12 +103,15 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.2, ease: "easeInOut" }}
         >
-          {/* Description */}
-          <p className="max-w-2xl mx-auto text-base text-neutral-400 mt-4 break-words leading-relaxed">
-            I build real-time voice AI pipelines (STT → LLM → TTS) and AI agents at production quality — 133ms latency, shipped in days. Trusted by YC-backed startups (US & UK) and shortlisted for Entrepreneurs First Bangalore Fall 2026.
+          {/* Description — bright white/light */}
+          <p className="max-w-2xl mx-auto text-base text-neutral-200 mt-4 break-words leading-relaxed">
+            I build real-time voice AI pipelines (STT → LLM → TTS) and AI agents at production quality —{" "}
+            <span className="text-white font-semibold">133ms latency</span>, shipped in days. Trusted by{" "}
+            <span className="text-white font-semibold">YC-backed startups</span> (US & UK) and shortlisted for{" "}
+            <span className="text-white font-semibold">Entrepreneurs First Bangalore Fall 2026</span>.
           </p>
 
-          {/* Stack badges */}
+          {/* Stack badges — bright borders + white text */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -118,7 +121,7 @@ export function HeroSection() {
             {["LiveKit", "Pipecat", "LangChain", "Groq", "Cartesia", "Next.js", "FastAPI", "Docker"].map((tech) => (
               <span
                 key={tech}
-                className="text-xs px-3 py-1 rounded-full border border-neutral-700 text-gray-400 bg-neutral-900/60"
+                className="text-sm font-medium px-3 py-1 rounded-full border border-white/30 text-white bg-white/10 backdrop-blur-sm hover:border-white/60 hover:bg-white/20 transition-all duration-200"
               >
                 {tech}
               </span>
