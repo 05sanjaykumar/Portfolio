@@ -65,6 +65,9 @@ export function HeroSection() {
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
             YC S23 — VectorShift
           </span>
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/50 text-emerald-300">
+            🇺🇸 US — Gensail
+          </span>
           <span className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-purple-500/20 border border-purple-400/50 text-purple-300">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
             Entrepreneurs First — Shortlisted
@@ -103,7 +106,7 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.2, ease: "easeInOut" }}
         >
-          {/* Description — bright white/light */}
+          {/* Description */}
           <p className="max-w-2xl mx-auto text-base text-neutral-200 mt-4 break-words leading-relaxed">
             I build real-time voice AI pipelines (STT → LLM → TTS) and AI agents at production quality —{" "}
             <span className="text-white font-semibold">133ms latency</span>, shipped in days. Trusted by{" "}
@@ -111,7 +114,7 @@ export function HeroSection() {
             <span className="text-white font-semibold">Entrepreneurs First Bangalore Fall 2026</span>.
           </p>
 
-          {/* Stack badges — bright borders + white text */}
+          {/* Stack badges */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
