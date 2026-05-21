@@ -20,7 +20,7 @@ const projects = [
       "Built OAuth 2.0 integrations for HubSpot, Airtable, and Notion with a FastAPI backend and React frontend. Implemented token exchange, Redis-backed session storage, and a data loader to fetch CRM contacts and companies post-auth.",
     tags: ["React", "FastAPI", "Redis", "HubSpot OAuth", "Python"],
     link: "https://github.com/05sanjaykumar/Vectorshift-YC-S23",
-    timeframe: "Assessment",
+    timeframe: "1 day",
   },
   {
     client: "Pebble",
@@ -29,7 +29,7 @@ const projects = [
       "End-to-end voice AI assistant for collecting business funding information through natural conversation. Full pipeline: mic input → Whisper STT → Groq LLM → Cartesia TTS, with structured data extraction, dynamic document checklist generation, and session memory.",
     tags: ["Next.js", "FastAPI", "Whisper", "Groq", "Cartesia", "Tailwind"],
     link: "https://github.com/05sanjaykumar/Pebble-Test",
-    timeframe: "Trial Project",
+    timeframe: "1 month",
   },
   {
     client: "Gensail",
@@ -38,7 +38,7 @@ const projects = [
       "Low-latency real-time voice assistant built with Pipecat over WebSocket. Full pipeline orchestration: NVIDIA Nemotron STT → Groq Llama 3.1 LLM → Kokoro TTS (local). Features Silero VAD for turn-taking, interruption support, and Protobuf-framed audio streaming.",
     tags: ["Next.js", "Pipecat", "FastAPI", "NVIDIA STT", "Groq", "Kokoro TTS"],
     link: "https://github.com/05sanjaykumar/Gensail-Trail-Project",
-    timeframe: "Trail Project",
+    timeframe: "1 week",
   },
 ];
 
