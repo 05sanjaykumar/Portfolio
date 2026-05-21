@@ -29,23 +29,23 @@ export function AboutSection() {
         >
           <div className="md:col-span-2 space-y-4 text-muted-foreground">
             <p>
-              I’m Sanjay — a full-stack product engineer & AI systems builder who helps founders launch clean, scalable SaaS MVPs in weeks, not months.
+              I’m Sanjay — a Voice AI Engineer and AI Agent builder who designs and ships real-time conversational AI systems for startups and founders.
             </p>
             <p>
-              From zero to launch: I build everything from scratch — backend, frontend, GPT/LLM features with LangChain, Supabase, Stripe, Docker, secure auth, CI/CD, and more.
+              I specialise in end-to-end voice AI pipelines: STT → LLM → TTS — using LiveKit and Pipecat for real-time streaming, Groq for ultra-fast inference, Cartesia and Kokoro for natural TTS, and Whisper / NVIDIA Nemotron for speech recognition. I’ve built production voice agents for YC-backed companies like Freya (YC S25) and Gensail.
             </p>
             <p>
-              Think of me as your “MVP builder for Hire” — fast, lean, and production-ready. No fluff. Just results that ship.
+              Beyond voice, I build full-stack AI products with Next.js, FastAPI, LangChain, Docker, and Supabase — from backend pipelines to polished frontends, deployed and production-ready.
             </p>
           </div>
-          <div id='projects' className="bg-muted p-6 rounded-lg">
+          <div id="projects" className="bg-muted p-6 rounded-lg">
             <h3 className="font-semibold text-lg mb-2">What I Do Best</h3>
-            <ul className="space-y-2">
-              <li className="flex items-center gap-2">✓ AI-Powered SaaS MVPs</li>
-              <li className="flex items-center gap-2">✓ Full-Stack Dev + Clean UI</li>
-              <li className="flex items-center gap-2">
-                ✓ Stripe, Auth, Supabase, LangChain, Docker-compose
-              </li>
+            <ul className="space-y-2 text-sm">
+              <li className="flex items-center gap-2">✓ Real-time Voice AI Pipelines</li>
+              <li className="flex items-center gap-2">✓ AI Agents & LLM Integration</li>
+              <li className="flex items-center gap-2">✓ LiveKit · Pipecat · LangChain</li>
+              <li className="flex items-center gap-2">✓ Groq · Cartesia · Whisper</li>
+              <li className="flex items-center gap-2">✓ Next.js · FastAPI · Docker</li>
             </ul>
           </div>
         </motion.div>
