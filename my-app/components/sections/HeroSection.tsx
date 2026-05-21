@@ -8,8 +8,7 @@ import { Button } from "@/components/ui/button";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 const tagline =
-  "Hi, I'm Sanjay — your MVP builder for shipping SaaS MVPs in weeks, not months.";
-
+  "Hi, I'm Sanjay — I build Voice AI agents & AI-powered products for startups.";
 
 declare global {
   interface Window {
@@ -58,7 +57,7 @@ export function HeroSection() {
           className="mb-4"
         >
           <h1 className="text-3xl md:text-6xl font-light text-neutral-300 break-words text-balance leading-tight">
-            Build & Launch Your SaaS MVP — Fast.
+            Voice AI Engineer & AI Agent Builder.
           </h1>
         </motion.div>
 
@@ -83,25 +82,43 @@ export function HeroSection() {
           }}
         >
           <p className="max-w-2xl mx-auto text-lg text-neutral-300 mt-4 break-words">
-            I help indie hackers & startup founders turn messy ideas into launch-ready products — with AI, clean UI, solid backend, and production-ready deploys.
+            I design and ship real-time voice AI pipelines (STT → LLM → TTS), AI agents, and full-stack AI products — using LiveKit, Pipecat, LangChain, Groq, Cartesia, Next.js, FastAPI, and Docker. Built for YC-backed startups and early-stage founders.
           </p>
+
+          {/* Stack badges */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.8 }}
+            className="flex flex-wrap gap-2 mt-6 justify-center"
+          >
+            {["LiveKit", "Pipecat", "LangChain", "Groq", "Cartesia", "Next.js", "FastAPI", "Docker"].map((tech) => (
+              <span
+                key={tech}
+                className="text-xs px-3 py-1 rounded-full border border-neutral-700 text-gray-400 bg-neutral-900/60"
+              >
+                {tech}
+              </span>
+            ))}
+          </motion.div>
+
           <div className="flex flex-wrap gap-4 mt-8 justify-center">
-            <Link href="#services">
-              <Button size="lg">View My Offers</Button>
+            <Link href="#clients">
+              <Button size="lg">See Client Work</Button>
             </Link>
-            <Link href="#projects">
+            <Link href="#services">
               <Button size="lg" variant="secondary">
-                See Past Builds
+                What I Build
               </Button>
             </Link>
             <Link href="#packages">
               <Button size="lg" variant="secondary">
-                See what I can help with
+                Pricing
               </Button>
             </Link>
             <Link href="#contact">
               <Button size="lg" variant="secondary">
-                Let's Talk
+                Let’s Talk
               </Button>
             </Link>
           </div>
